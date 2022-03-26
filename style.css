@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #21384a;
+    color: #fff;
+}
+
+.logo {
+    position: absolute;
+    height: 80px;
+    left: 165px;
+ }
+
+ .logo2 {
+    position: absolute;
+    height: 275px;
+    left: 1156px;
+    top: 585px;
+ }
+
+ .menu {
+    display: flex;
+    padding-left: 900px;
+    gap: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    
+}
+
+.main {
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+}
+
+.titulo {                           /*CUBE CRIPTO*/
+    position: absolute;
+    width: 496px;
+    height: 145px;
+    left: 140px;
+    top: 190px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.titulo2 {
+    position: absolute;
+    width: 496px;
+    height: 145px;
+    left:1050px;
+    top: 195px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.titulo3 {
+    position: absolute;
+    width: 496px;
+    height: 145px;
+    left:1050px;
+    top: 295px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+
+.nome {                /*CAIXA NOME*/
+    position: absolute;
+    width: 374px;
+    height: 92px;
+    left: 201px;
+    top: 320px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.e-mail {             /*CAIXA EMAIL*/
+    position: absolute;
+    width: 374px;
+    height: 92px;
+    left: 201px;
+    top: 445px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.cadastrar {                      /*cadastrar*/
+    position: absolute;
+    width: 419px;
+    height: 109px;
+    left: 178px;
+    top: 573px;
+    background: #FFB800;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition : all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    border: none;
+    background-color: #ffc51f;
+    color: #111111;
+    box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
+}
+  .cadastrar:active,
+  .cadastrar:focus{
+    background-color: #102770;
+    color: #ffc51f;
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+  }
+  .cadastrar:hover{
+    background-color: #102770;
+    color: #ffc51f;
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+  }
+
+.imagem {
+    justify-content: end;
+    padding-left: 1200px;
+    
+}
+
+.rodape {
+    padding-top: 80px;
+}
+
+.paragrafo-rodape {          /*DESAFIO FRONT-END - FÁBRICA DE SOFTWARE*/
+    position: absolute;
+    left: 740px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.item-menu {
+    border-radius: 4px;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition : all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    border: none;
+    background-color: #ffc51f;
+    color: #111111;
+    box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
+    cursor: pointer;
+
+  }
+
+  .item-menu:active,
+  .item-menu:focus{
+    background-color: #102770;
+    color: #ffc51f;
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+  }
+  .item-menu:hover{
+    background-color: #102770;
+    color: #ffc51f;
+    box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+  }
+
+  .area-principal {
+    background-color: #21384a;
+  }
+  
+  .rodape {
+    
+        height: 130px;
+        background-color: #21384a;
+        margin-top: 20px;
+        width: 1895px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    
+  }
+
+body {
+    background-color: #21384a;
+}
+
+.cadastro {
+    width: 480px;
+    height: 580px;
+    background-color: #165a72;
+    margin-top: 50px;
+    margin-left: 155px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    gap: 100px;
+}
+
+.instagram {
+    position: absolute;
+    height: 50px;
+    left: 96px;
+    top: 878px;
+}    
+
+.facebook {
+position: absolute;
+height: 50px;
+left: 26px;
+top: 878px;
+    
+}
+
+.linkedin {
+    position: absolute;
+    height: 50px;
+    left: 166px;
+    top: 878px;
+        
+    }
+
+    .github {
+    position: absolute;
+    height: 50px;
+    left: 236px;
+    top: 878px;
+            
+    }
+    
+    .whatsapp {
+        position: absolute;
+        height: 50px;
+        left: 306px;
+        top: 878px;
+                
+    }
